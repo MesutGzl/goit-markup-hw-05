@@ -602,7 +602,7 @@ main .fourth-section-p-items {
   border-color: #4d5ae5;
 }
 
-.checkbox {
+.form-checkbox {
   margin-bottom: 24px;
 }
 
@@ -627,7 +627,7 @@ main .fourth-section-p-items {
     fill: transparent;
 }
 
-.form-checkbox:checked + .form-span{
+.visually-hidden:checked + .form-span{
   background-color: #404bbf;
   border:none;
   fill: #f4f4fd;
