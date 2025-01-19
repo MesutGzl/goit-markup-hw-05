@@ -522,7 +522,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="checkbox">
+          <div class="form-checkbox">
             <input
               class="visually-hidden"
               type="checkbox"
@@ -531,10 +531,15 @@
               value="true"
             />
             <label class="privacy-label" for="user-privacy"
-              >I accept the terms and conditions of the
-              <span class="form-span">Privacy Policy</span></label
-            >
+              >I accept the terms and conditions of the <span class="form-span">
+                <svg class="check-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+              </span>
+              <a class="label-a" href="#">Privacy Policy</a>
+              </label>
           </div>
+          <button class="send-button">Send</button>
         </form>
       </div>
     </div>
