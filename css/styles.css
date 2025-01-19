@@ -603,7 +603,7 @@ main .fourth-section-p-items {
 }
 
 .form-checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .privacy-label {
@@ -613,7 +613,7 @@ main .fourth-section-p-items {
   color: #8e8f99;
 }
 
-.form-span {
+.form-svg {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -627,7 +627,7 @@ main .fourth-section-p-items {
     fill: transparent;
 }
 
-.visually-hidden:checked + .form-span{
+.input-check:checked + .form-svg{
   background-color: #404bbf;
   border:none;
   fill: #f4f4fd;
@@ -654,4 +654,9 @@ main .fourth-section-p-items {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
 }
