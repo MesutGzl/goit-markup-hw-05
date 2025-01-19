@@ -570,3 +570,7 @@ main .fourth-section-p-items {
 .input-label:focus{
   border-color: #4D5AE5;
 }
+
+.div-label{
+  position:relative;
+}
