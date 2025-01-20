@@ -631,7 +631,7 @@ main .fourth-section-p-items {
     fill: transparent;
 }
 
-.input-check:checked + .form-svg{
+.input-check:checked + .privacy-label .form-svg{
   background-color: #404bbf;
   border:none;
   fill: #f4f4fd;
